@@ -1,0 +1,172 @@
+html,
+body {
+    font-family: 'Opens sans', sans-serif;
+    text-align: left;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    text-align: right; /*Checar si se puede cambiar la imagen, un poco mas delgado pero mas largo sin distorcionar la imagen*/
+    position: fixed;
+    width: 100%;                                /*Terminar con el boton de ver mas y la opacidad del intro*/
+    background-color: white;
+}
+nav ul li {
+    display: inline-block;
+    margin: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: blue;
+}
+.navbar-brand{
+    display: inline;
+    float: left;
+    padding: 5px;
+}
+.intro{ /*Donde se encuentra Bienvenidos*/
+    background-image: url(../image/foto8101_800.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 0px;
+    min-height: 45vh;
+    padding-top: 25vh;
+    text-align: center;
+   /* opacity: 0.1;*/
+}
+.intro p{
+    color: white;
+    font-size: 20px;
+}
+h1{
+    color: black;
+    font-size: 60px;
+}
+h2{
+    background-size: cover;
+    font-size: 45px;
+}
+strong{
+   color: #F1C40F;
+}
+h3{
+    font-size: 30px;
+    color: white;
+}
+em{
+    font-weight: 700;
+}
+.contacto{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 10px;
+    color: black;
+    background-color: #ffffff;
+    border-radius: 20px;
+    float: center;
+}
+
+.contacto:hover{
+    color: #ffffff;
+    background-color: #000000;
+}
+.cuadricula{
+    justify-content: center;
+    padding: 30px;
+    padding-top: 1px;
+}
+
+.seccion, .section{
+    display: inline-grid;
+    float: left;
+    padding: 10px;
+    width: 45%;
+}
+.catalogo, .revisando{
+    display: inline-grid;
+    float: left;
+    padding: 10px;
+    width: 45%;
+}
+.boton {
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 10px;
+    color: white;
+    background-color: #323231;
+    border-radius: 20px;
+    float: left;
+}
+.boton:hover{
+    color: #ffffff;
+    background-color: #000000;
+}
+.grid{
+    display: inline-grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 200px 100px 100px;
+    grid-column-gap: 100px;
+}
+.history{ /* Modifica la linea de nosotros*/
+
+    padding-top: 20px;
+    padding: 40px;
+    margin-top: -30px;
+}
+.history p{
+    color: black;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 10px;
+}
+.history article{
+    color: black;
+    margin-top: 20px;
+    font-weight: normal;
+    text-align: justify;
+}
+.image{
+  width: 500px;
+  height: 250px;
+  padding: 60px;
+    opacity: 0.7;
+}
+footer{
+
+    padding: 10px;
+    position: relative;
+    background: #000000;
+    color:white;
+    line-height: 50px;
+    text-align: center;
+}
+@media only screen and ( max-width:815px){
+    #navbar ul{
+        border: 1px solid;
+        height: 207px;
+    }
+    #navbar{
+        background: black;
+        position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-height: 280px;
+        border: none;
+        z-index: 1;
+        border-bottom: 1px solid;
+    }
+}
