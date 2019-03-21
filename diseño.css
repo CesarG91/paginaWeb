@@ -9,9 +9,9 @@ body {
 }
 
 nav ul{
-    text-align: right; /*Checar si se puede cambiar la imagen, un poco mas delgado pero mas largo sin distorcionar la imagen*/
+    text-align: right;
     position: fixed;
-    width: 100%;                                /*Terminar con el boton de ver mas y la opacidad del intro*/
+    width: 100%;
     background-color: white;
 }
 nav ul li {
@@ -33,7 +33,7 @@ nav ul li a:hover{
     float: left;
     padding: 5px;
 }
-.intro{ /*Donde se encuentra Bienvenidos*/
+.intro{
     background-image: url(../image/foto8101_800.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -41,7 +41,7 @@ nav ul li a:hover{
     min-height: 45vh;
     padding-top: 25vh;
     text-align: center;
-   /* opacity: 0.1;*/
+
 }
 .intro p{
     color: white;
@@ -119,7 +119,7 @@ em{
     grid-template-rows: 200px 100px 100px;
     grid-column-gap: 100px;
 }
-.history{ /* Modifica la linea de nosotros*/
+.history{
 
     padding-top: 20px;
     padding: 40px;
