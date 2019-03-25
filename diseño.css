@@ -7,6 +7,13 @@ body {
     margin: 0;
     padding: 0;
 }
+header{
+    background: (0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
 nav ul{
     text-align: right;
     position: fixed;
@@ -24,7 +31,7 @@ nav ul li a {
     text-decoration: none;
 }
 nav ul li a:hover{
-    color: blue;
+    color: #F1C40F;
 }
 .navbar-brand{
     display: inline;
@@ -37,15 +44,16 @@ nav ul li a:hover{
     background-size: 100% 100%;
     top: 0px;
     min-height: 45vh;
-    padding-top: 25vh;
+    padding-top: 35vh;
     text-align: center;
+    opacity: 0.8;
 }
-.intro p{
+.intro aside{
     color: white;
     font-size: 20px;
 }
 h1{
-    color: black;
+    color: #06388A;
     font-size: 60px;
 }
 h2{
@@ -59,6 +67,11 @@ h3{
     font-size: 30px;
     color: white;
 }
+aside{
+    font-family: 'Open sans', sans-serif;
+    color: white;
+    font-size: 20px;
+}
 em{
     font-weight: 700;
 }
@@ -66,11 +79,15 @@ em{
     text-decoration: none;
     padding: 10px;
     font-weight: 600;
-    font-size: 10px;
+    font-size: 15px;
     color: black;
     background-color: #ffffff;
-    border-radius: 20px;
+    border-radius: 30px;
+    border-color: white;
     float: center;
+    width: 150px;
+    height: 50px;
+    margin: 25px;
 }
 
 .contacto:hover{
@@ -94,16 +111,24 @@ em{
     padding: 10px;
     width: 45%;
 }
+i{
+ color: #F1C40F;
+}
+i.fas fa-ellipsis-h{
+    color: aqua;
+}
 .boton {
-    display: inline;
-    text-decoration: none;
-    padding: 10px;
+    display: inline-grid;
+    text-align: center;
+    padding: 15px;
     font-weight: 600;
-    font-size: 10px;
+    font-size: 15px;
     color: white;
-    background-color: #323231;
-    border-radius: 20px;
-    float: left;
+    background-color: #494949;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    margin: 35px;
 }
 .boton:hover{
     color: #ffffff;
