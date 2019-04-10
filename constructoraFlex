@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS/design.css" type="text/css">
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+        <nav>
+            <ul>
+                <li>
+                    <img src="image/ultimo.png" alt="constructora" />
+                </li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Equipo</a></li>
+                <li><a href="#">Estrategias</a></li>
+                <li><a href="#">Testimonios</a></li>
+                <li>
+                    <a href="formulario.html">
+                    <i class="material-icons" style="font-size: 25px;">&#xe0b0; &nbsp;</i>
+                    <address>Contactanos <br> <b>9932453621</b></address>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+            </header>
+        <section class="intro">
+        </section>
+        <div class="inicio">
+                <h1>Welcome to</h1>
+                <h2>Construction</h2>
+                    <p>Estrategias y planeacion en todos nuestros trabajos recibidos en nuestras oficinas, estamos
+                       comprometidos con nuestros clientes en cuestion de calidad y experiencia.</p>
+                <button type="submit">Entrar</button>
+            </div>
+        <section class="somos">
+            <article>
+                <h3>NOSOTROS <strong>SOMOS</strong></h3>
+                <h4>Nuestros servicios</h4>
+                <text>Estrategias y planeacion en todos nuestros trabajos recibidos en nuestras oficinas, estamos
+                          comprometidos con nuestros clientes en cuestion de calidad y experiencia. Demostrando
+                          que somos los mejores, en cuestiones de calidad,
+                    expriencia y trato a nuestros clientes y proyectos</text>
+                <article class="sub">
+                    <div class="a">
+                        <h5><i class="fas fa-hammer" style="font-size: 25px;"></i> Servicios</h5>
+                        <text>Calidad y experiencia en el mercado</text>
+                    </div>
+                    <div class="b">
+
+                        <h5><i class="far fa-image" style="font-size: 25px;"></i> Caracteristicas</h5>
+                        <text>A tiempo, calidad y presentacion</text>
+                    </div>
+                </article>
+                <article class="segundo">
+                    <div class="c">
+                        <h5><i class="fas fa-paint-brush" style="font-size: 25px;"></i> Proyectos</h5>
+                        <text>Construcciones y estrategias</text>
+                    </div>
+                    <div class="d">
+
+                        <h5><i class="fas fa-building" style="font-size: 25px;"></i> Planeacion</h5>
+                        <text>Buenas ideas de construccion</text>
+                    </div>
+                </article>
+                <button class="boton" type="submit">Ver m�s</button>
+            </article>
+            <article>
+                <img class="info" src="image/Imagen-Constructora-Paramount-3.jpg"/>
+            </article>
+        </section>
+        <section>
+            <footer>Derechos reservados�</footer>
+        </section>
+    </body>
+</html>
